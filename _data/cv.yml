@@ -26,35 +26,40 @@
   type: time_table
   contents:
     - title: Research Associate – Adobe Inc. (Systems and Insights Group)
-      institution: Mentors: Dr. Subrata Mitra, Dr. Atanu Sinha, Dr. Shiv Saini
+      institution: Adobe Inc.
       year: Jun 2024 -- Present
       description:
+        - Mentors: Dr. Subrata Mitra, Dr. Atanu Sinha, Dr. Shiv Saini
         - Worked on efficient systems for LLM serving and video generation via caching techniques
         - Published 2 papers and filed 3 patents; integrated innovations in 2 products
         - Selected for a session on world models at Adobe Tech Summit 2025
     - title: Research Intern – Sarvam.AI
-      institution: Mentors: Prof. Pratyush Kumar, Dr. Vivek Raghavan
+      institution: Sarvam.AI
       year: Jan 2024 -- May 2024
       description:
+        - Mentors: Prof. Pratyush Kumar, Dr. Vivek Raghavan
         - Built end-to-end tool creating guided audio lessons using custom speech pipelines
         - Deployed efficient ASR service using NVIDIA RIVA for low-resource languages
         - Trained expressive TTS models based on StyleTTS2
     - title: Research Intern – Adobe Inc. (BigData Intelligence Lab)
-      institution: Brand-guided Poster Generation
+      institution: Adobe Inc.
       year: May 2023 -- Aug 2023
       description:
+        - Project: Brand-guided Poster Generation
         - Built design creation tool using Custom Diffusion with product and brand references
         - Devised optimal multi-concept latent interpolation algorithm
     - title: Data Engineering Intern – AI4Bharat, IIT Madras
-      institution: Mentor: Prof. Mitesh M. Khapra
+      institution: IIT Madras (AI4Bharat)
       year: Jan 2023 -- Apr 2023
       description:
+        - Mentor: Prof. Mitesh M. Khapra
         - Collated ASR benchmarks across 12 Indian languages; created 10,736 hours dataset
         - Performed alignment with Needleman–Wunsch; finetuned Whisper achieving 4.1 WER reduction
     - title: Machine Learning Intern – Honeywell Technology Solutions Lab
-      institution: Mentor: Mr. Srikanth Viswaraju
+      institution: Honeywell Technology Solutions Lab
       year: May 2022 -- Jul 2022
       description:
+        - Mentor: Mr. Srikanth Viswaraju
         - Designed contextual search engine for flight manuals using BERT; 79.38% text / 54.69% tabular
 
 - title: Selected Projects
