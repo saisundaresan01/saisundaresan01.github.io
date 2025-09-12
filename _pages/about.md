@@ -40,33 +40,44 @@ The site includes a curated list of publications, selected projects, patents, an
 
 <section id="publications"></section>
 
+<h1>Publications</h1>
 <div class="publications">
-{% bibliography %}
+{% bibliography --query @* --group_by none %}
 </div>
 
-<section id="projects"></section>
-
-<div class="projects">
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  <div class="row row-cols-1">
-    {% for project in sorted_projects %}
-      <div class="col-sm-12 mt-3 mt-md-0">
-        <h3>{{ project.title }}</h3>
-        {% if project.description %}<p>{{ project.description }}</p>{% endif %}
-      </div>
-    {% endfor %}
-  </div>
-</div>
+<!-- Projects section removed -->
 
 <section id="patents"></section>
 
-- [Filed] Heterogenous LLMs for Subjective Behaviors. US Patent App. 19/215,758.
-- [Filed] Utilizing Digital Page Sequence Tokens with Large Language Models to Generate Digital User Activity Predictions. US Patent App. 19/050,836.
-- [Filed] Managing Chunk Caches for Efficient Retrieval-Augmented Generation. US Patent App. 19/074,061.
+<h1>Patents</h1>
+<div class="patents">
+  <div class="d-flex align-items-start mb-3">
+    <span class="badge badge-info mr-3">USPTO</span>
+    <div>
+      <div><strong>Heterogenous LLMs for Subjective Behaviors.</strong></div>
+      <div><em>US Patent App. 19/215,758 Filed</em></div>
+      <div>Sai Narayan Sundaresan, Atanu R Sinha, Harshita Chopra, Koustava Goswami, Raghav Karan, Nagasai Saketh Naidu, Anushka N.</div>
+    </div>
+  </div>
+  <div class="d-flex align-items-start mb-3">
+    <span class="badge badge-info mr-3">USPTO</span>
+    <div>
+      <div><strong>Utilizing Digital Page Sequence Tokens with Large Language Models to Generate Digital User Activity Predictions.</strong></div>
+      <div><em>US Patent App. 19/050,836 Filed</em></div>
+      <div>Harshita Chopra, Nagasai Saketh Naidu, Raghav Karan, Anushka N, Atanu R Sinha, Koustava Goswami, Sai Narayan Sundaresan.</div>
+    </div>
+  </div>
+  <div class="d-flex align-items-start mb-3">
+    <span class="badge badge-info mr-3">USPTO</span>
+    <div>
+      <div><strong>Managing Chunk Caches for Efficient Retrieval-Augmented Generation.</strong></div>
+      <div><em>US Patent App. 19/074,061 Filed</em></div>
+      <div>Shubham Agarwal, Sai Narayan Sundaresan, Subrata Mitra, Debabrata Mahapatra, Archit Gupta, Rounak Sharma, Nirmal Joshua Kapu, Tong Yu, Shiv Saini.</div>
+    </div>
+  </div>
+</div>
 
 <section id="cv"></section>
-
-<a class="btn btn-primary" href="{{ 'assets/pdf/example.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
 
 <section id="contact"></section>
 

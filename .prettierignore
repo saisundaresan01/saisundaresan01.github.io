@@ -10,3 +10,10 @@ _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
 _scripts/*
+_config.yml
+_includes/header.liquid
+_pages/contact.md
+_pages/patents.md
+_projects/10_cachecraft.md
+_projects/11_video_generation_patches.md
+_projects/12_hetlm.md

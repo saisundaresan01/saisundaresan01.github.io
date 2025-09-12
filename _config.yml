@@ -7,7 +7,7 @@ first_name: Sai Narayan
 middle_name:
 last_name: Sundaresan
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to contact me is through gmail.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research Associate at Adobe working on ML + Systems. I build efficient
   inference systems for LLMs and video generation by uncovering redundancies
@@ -64,8 +64,6 @@ single_page_sections:
     anchor: about
   - title: Publications
     anchor: publications
-  - title: Projects
-    anchor: projects
   - title: Patents
     anchor: patents
   - title: CV
