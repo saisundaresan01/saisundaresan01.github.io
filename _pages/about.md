@@ -70,7 +70,7 @@ The site includes a curated list of publications, selected projects, patents, an
 
 <section id="cv"></section>
 
-[Download CV]({{ 'assets/pdf/example.pdf' | relative_url }})
+<a class="btn btn-primary" href="{{ 'assets/pdf/example.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
 
 <section id="contact"></section>
 
