@@ -2,96 +2,94 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Sai Narayan Sundaresan
+    - name: Email
+      value: saisundaresan01@gmail.com
+    - name: Website
+      value: https://saisundaresan01.github.io
+    - name: Google Scholar
+      value: https://scholar.google.com/citations?user=icwyFlQAAAAJ&hl=en
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/sai-narayan-sundaresan/
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Dual Degree (B.Tech, M.Tech), Industrial and Systems Engineering
+      institution: Indian Institute of Technology Kharagpur, India
+      year: 2019 -- 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - GPA: 9.15/10.00
+        - Micro-specialization: Artificial Intelligence and Applications
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate – Adobe Inc. (Systems and Insights Group)
+      institution: Mentors: Dr. Subrata Mitra, Dr. Atanu Sinha, Dr. Shiv Saini
+      year: Jun 2024 -- Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked on efficient systems for LLM serving and video generation via caching techniques
+        - Published 2 papers and filed 3 patents; integrated innovations in 2 products
+        - Selected for a session on world models at Adobe Tech Summit 2025
+    - title: Research Intern – Sarvam.AI
+      institution: Mentors: Prof. Pratyush Kumar, Dr. Vivek Raghavan
+      year: Jan 2024 -- May 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Built end-to-end tool creating guided audio lessons using custom speech pipelines
+        - Deployed efficient ASR service using NVIDIA RIVA for low-resource languages
+        - Trained expressive TTS models based on StyleTTS2
+    - title: Research Intern – Adobe Inc. (BigData Intelligence Lab)
+      institution: Brand-guided Poster Generation
+      year: May 2023 -- Aug 2023
       description:
+        - Built design creation tool using Custom Diffusion with product and brand references
+        - Devised optimal multi-concept latent interpolation algorithm
+    - title: Data Engineering Intern – AI4Bharat, IIT Madras
+      institution: Mentor: Prof. Mitesh M. Khapra
+      year: Jan 2023 -- Apr 2023
+      description:
+        - Collated ASR benchmarks across 12 Indian languages; created 10,736 hours dataset
+        - Performed alignment with Needleman–Wunsch; finetuned Whisper achieving 4.1 WER reduction
+    - title: Machine Learning Intern – Honeywell Technology Solutions Lab
+      institution: Mentor: Mr. Srikanth Viswaraju
+      year: May 2022 -- Jul 2022
+      description:
+        - Designed contextual search engine for flight manuals using BERT; 79.38% text / 54.69% tabular
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Efficient Video Generation through Patch Level Caching
+      year: ongoing
+      description: Reuse intermediate states across similar patches via rectified flow interpolation.
+    - title: Efficient LLM Serving for RAG (Cache-Craft)
+      year: 2025
+      description: Chunk-cache decomposition and reuse; ~2.7× prefill latency reduction.
+    - title: Heterogeneity-Aware User Behaviour Prediction (HeTLM)
+      year: 2025
+      description: Clusterwise training showing small LMs better model subjective browsing behaviors.
 
-- title: Honors and Awards
+- title: Activities and Achievements
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Mentored 6 undergraduate interns and collaborated with 1 PhD intern at Adobe
+        - Best paper and merit awards at ORSI '24 and ICLST '24
+        - Branch Rank 1 in Quality Engineering Design and Manufacturing (highest GPA)
+        - Certificate of Merit for top rank in Computer Science, AISSCE 2019
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: ML + Systems for generative models
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Efficient LLM serving and caching for RAG
+        - Efficient video generation via computation reuse
 
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Programming: Python, C++, C, Triton
+    - Frameworks: vLLM, Transformers, Diffusers, PyTorch, Git
