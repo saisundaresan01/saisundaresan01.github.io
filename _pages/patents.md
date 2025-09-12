@@ -3,7 +3,7 @@ layout: page
 permalink: /patents/
 title: patents
 description: Filed patent applications.
-nav: true
+nav: false
 nav_order: 4
 ---
 

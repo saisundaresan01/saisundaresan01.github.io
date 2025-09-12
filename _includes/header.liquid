@@ -46,6 +46,14 @@
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
+          <!-- Single-page anchors -->
+          {% if site.single_page %}
+            {% for s in site.single_page_sections %}
+              <li class="nav-item">
+                <a class="nav-link" href="#{{ s.anchor }}">{{ s.title }}</a>
+              </li>
+            {% endfor %}
+          {% else %}
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
@@ -55,8 +63,10 @@
               {% endif %}
             </a>
           </li>
+          {% endif %}
 
           <!-- Other pages -->
+          {% unless site.single_page %}
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
@@ -117,6 +127,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% endunless %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

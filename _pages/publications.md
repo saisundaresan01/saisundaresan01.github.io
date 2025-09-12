@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Publications by year. Update `_bibliography/papers.bib` to add entries.
-nav: true
+nav: false
 nav_order: 2
 ---
 

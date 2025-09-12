@@ -4,7 +4,6 @@ title: contact
 permalink: /contact/
 description: Get in touch.
 nav: false
-parent: submenus
 ---
 
 You can reach me at:

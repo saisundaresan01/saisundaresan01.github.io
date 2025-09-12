@@ -38,3 +38,40 @@ Recently, I have:
 Previously, I completed a Dual Degree (B.Tech + M.Tech) in Industrial and Systems Engineering at IIT Kharagpur (GPA 9.15/10), with a micro‑specialization in AI.
 
 The site includes a curated list of publications, selected projects, patents, and a CV.
+
+<section id="about"></section>
+
+<section id="publications"></section>
+
+{% include bib_search.liquid %}
+<div class="publications">
+{% bibliography %}
+</div>
+
+<section id="projects"></section>
+
+<div class="projects">
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  <div class="row row-cols-1">
+    {% for project in sorted_projects %}
+      <div class="col-sm-12 mt-3 mt-md-0">
+        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        {% if project.description %}<p>{{ project.description }}</p>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<section id="patents"></section>
+
+- [Filed] Heterogenous LLMs for Subjective Behaviors. US Patent App. 19/215,758.
+- [Filed] Utilizing Digital Page Sequence Tokens with Large Language Models to Generate Digital User Activity Predictions. US Patent App. 19/050,836.
+- [Filed] Managing Chunk Caches for Efficient Retrieval-Augmented Generation. US Patent App. 19/074,061.
+
+<section id="cv"></section>
+
+[Download CV]({{ 'assets/pdf/example.pdf' | relative_url }})
+
+<section id="contact"></section>
+
+You can reach me at [saisundaresan01@gmail.com](mailto:saisundaresan01@gmail.com).

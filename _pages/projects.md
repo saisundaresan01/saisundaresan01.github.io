@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected projects; add cards in `_projects/`.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false

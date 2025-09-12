@@ -49,15 +49,29 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
+single_page: true
+single_page_sections:
+  - title: About
+    anchor: about
+  - title: Publications
+    anchor: publications
+  - title: Projects
+    anchor: projects
+  - title: Patents
+    anchor: patents
+  - title: CV
+    anchor: cv
+  - title: Contact
+    anchor: contact
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
