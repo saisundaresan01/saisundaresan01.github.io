@@ -70,8 +70,6 @@ single_page_sections:
     anchor: patents
   - title: CV
     anchor: cv
-  - title: Contact
-    anchor: contact
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -240,6 +238,7 @@ defaults:
 
 sass:
   style: compressed
+  quiet_deps: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier

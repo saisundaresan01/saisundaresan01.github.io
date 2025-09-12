@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications by year. Update `_bibliography/papers.bib` to add entries.
+description: Publications list.
 nav: false
 nav_order: 2
 ---
@@ -11,10 +11,8 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<!-- search removed for simplicity -->
 
 <div class="publications">
-
-{% bibliography %}
-
+{% bibliography --query @* --group_by none %}
 </div>

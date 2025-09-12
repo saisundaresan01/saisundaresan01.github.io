@@ -7,11 +7,8 @@ subtitle: Research Associate, Adobe. ML + Systems for efficient LLM and video ge
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Email: <a href="mailto:saisundaresan01@gmail.com">saisundaresan01@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sai-narayan-sundaresan/" target="_blank">sai-narayan-sundaresan</a></p>
-    <p>Google Scholar: <a href="https://scholar.google.com/citations?user=icwyFlQAAAAJ&hl=en" target="_blank">icwyFlQAAAAJ</a></p>
+  image_circular: true # crops the image to make it circular
+  more_info: The best way to contact me is through gmail.
 
 selected_papers: false # keep single-page simple; full list shown below
 social: true # includes social icons at the bottom of the page

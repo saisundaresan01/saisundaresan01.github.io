@@ -49,9 +49,11 @@
           <!-- Single-page anchors -->
           {% if site.single_page %}
             {% for s in site.single_page_sections %}
-              <li class="nav-item">
-                <a class="nav-link" href="#{{ s.anchor }}">{{ s.title }}</a>
-              </li>
+              {% if s.anchor == 'cv' %}
+                <li class="nav-item"><a class="nav-link" href="{{ '/cv/' | relative_url }}">{{ s.title }}</a></li>
+              {% else %}
+                <li class="nav-item"><a class="nav-link" href="#{{ s.anchor }}">{{ s.title }}</a></li>
+              {% endif %}
             {% endfor %}
           {% else %}
           <!-- About -->
@@ -140,7 +142,6 @@
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
