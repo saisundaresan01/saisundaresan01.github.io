@@ -13,16 +13,16 @@ profile:
     <p>LinkedIn: <a href="https://www.linkedin.com/in/sai-narayan-sundaresan/" target="_blank">sai-narayan-sundaresan</a></p>
     <p>Google Scholar: <a href="https://scholar.google.com/citations?user=icwyFlQAAAAJ&hl=en" target="_blank">icwyFlQAAAAJ</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # keep single-page simple; full list shown below
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # disabled for simplicity
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -43,7 +43,6 @@ The site includes a curated list of publications, selected projects, patents, an
 
 <section id="publications"></section>
 
-{% include bib_search.liquid %}
 <div class="publications">
 {% bibliography %}
 </div>
@@ -55,7 +54,7 @@ The site includes a curated list of publications, selected projects, patents, an
   <div class="row row-cols-1">
     {% for project in sorted_projects %}
       <div class="col-sm-12 mt-3 mt-md-0">
-        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        <h3>{{ project.title }}</h3>
         {% if project.description %}<p>{{ project.description }}</p>{% endif %}
       </div>
     {% endfor %}
