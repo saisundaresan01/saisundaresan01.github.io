@@ -24,19 +24,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I build practical, efficient ML systems at the intersection of Machine Learning and Systems. My current research focuses on reducing inference cost and latency in generative models by uncovering redundancies and enabling reuse of computation.
-
-Recently, I have:
-
-- Developed chunk-cache management for RAG-style LLM serving achieving ~2.7× prefill speedups while preserving quality.
-- Built patch-level reuse for video generation via rectified flow interpolation (ongoing).
-- Trained and deployed speech systems (ASR/TTS) and built a guided audio lesson generation pipeline.
-
-Previously, I completed a Dual Degree (B.Tech + M.Tech) in Industrial and Systems Engineering at IIT Kharagpur (GPA 9.15/10), with a micro‑specialization in AI.
-
-The site includes a curated list of publications, selected projects, patents, and a CV.
-
 <section id="about"></section>
+
+I am a Research Associate at Adobe (Systems and Insights Group) working on Machine Learning + Systems. My work focuses on making generative models efficient at inference time by uncovering redundancies and enabling reuse of computation for LLMs and video generation.
+
+At Adobe, I have published papers and filed patents on efficient LLM serving (chunk-cache reuse for RAG) and on caching for diffusion/video generation. Before that, I completed a Dual Degree (B.Tech + M.Tech) in Industrial and Systems Engineering at IIT Kharagpur (GPA 9.15/10) with a micro‑specialization in AI.
 
 <section id="publications"></section>
 
