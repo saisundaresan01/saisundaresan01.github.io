@@ -27,7 +27,7 @@
     {% when 'ieee_id' %}
       <a href="https://ieeexplore.ieee.org/author/{{ social[1] }}/" title="IEEE Xplore"><i class="ai ai-ieee"></i></a>
     {% when 'inspirehep_id' %}
-      <a href="https://inspirehep.net/authors/{{ social[1] }}" title="Inspire HEP"><i class="ai ai-inspire"></i></a>
+      
     {% when 'instagram_id' %}
       <a href="https://instagram.com/{{ social[1] }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
     {% when 'kaggle_id' %}
@@ -59,9 +59,7 @@
     {% when 'research_gate_profile' %}
       <a href="https://www.researchgate.net/profile/{{ social[1] }}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
     {% when 'rss_icon' %}
-      {% if social[1] == true %}
-        <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
-      {% endif %}
+      
     {% when 'scholar_userid' %}
       <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     {% when 'scopus_id' %}

@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: The best way to contact me is through gmail.
+  more_info: ""
 
 selected_papers: false # keep single-page simple; full list shown below
 social: true # includes social icons at the bottom of the page
@@ -80,5 +80,3 @@ The site includes a curated list of publications, selected projects, patents, an
 <section id="cv"></section>
 
 <section id="contact"></section>
-
-You can reach me at [saisundaresan01@gmail.com](mailto:saisundaresan01@gmail.com).
