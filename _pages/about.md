@@ -26,9 +26,11 @@ latest_posts:
 
 <section id="about"></section>
 
-I am a Research Associate at Adobe (Systems and Insights Group) working on Machine Learning + Systems. My work focuses on making generative models efficient at inference time by uncovering redundancies and enabling reuse of computation for LLMs and video generation.
+I am a Research Associate at Adobe (Systems and Insights Group) working on Machine Learning + Systems. My work focuses on making generative models efficient at inference time by uncovering redundancies and enabling reuse of computation for LLMs and video generation. With over 1 year of experience in industrial research, I have publications in SIGMOD, EMNLP, and INTERSPEECH.
 
 At Adobe, I have published papers and filed patents on efficient LLM serving (chunk-cache reuse for RAG) and on caching for diffusion/video generation. Before that, I completed a Dual Degree (B.Tech + M.Tech) in Industrial and Systems Engineering at IIT Kharagpur (GPA 9.15/10) with a micro‑specialization in AI.
+
+If you would like to discuss ideas or collaborate, please contact me at <a href="mailto:saisundaresan01@gmail.com">saisundaresan01@gmail.com</a>.
 
 <section id="publications"></section>
 

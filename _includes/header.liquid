@@ -48,7 +48,9 @@
           {% if site.single_page %}
             {% for s in site.single_page_sections %}
               {% if s.anchor == 'cv' %}
-                <li class="nav-item"><a class="nav-link" href="{{ '/cv/' | relative_url }}">{{ s.title }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ 'assets/pdf/cv.pdf' | relative_url }}" target="_blank" rel="noopener">{{ s.title }}</a></li>
+              {% elsif s.anchor == 'about' %}
+                <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">{{ s.title }}</a></li>
               {% else %}
                 <li class="nav-item"><a class="nav-link" href="#{{ s.anchor }}">{{ s.title }}</a></li>
               {% endif %}
