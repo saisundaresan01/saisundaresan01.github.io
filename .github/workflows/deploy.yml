@@ -81,6 +81,8 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
+      - name: Remove arXiv fetch step (using offline abstracts)
+        run: echo "Abstracts are embedded offline; skipping fetch."
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
