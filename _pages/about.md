@@ -26,7 +26,27 @@ latest_posts:
 
 <section id="about"></section>
 
-<div class="alert alert-secondary" role="alert">
+<style>
+.update {
+  padding: 8px;
+  border-radius: 7px;
+  margin-bottom: 11px;
+  max-width: 510px;
+  margin-left: -2px;
+  margin-top: 2px;
+  border: 2px solid #b1b1b1;
+}
+.update a {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.update a:hover {
+  color: #cc0000;
+}
+</style>
+
+<div class="update">
   Applying for a PhD in Computer Science, Fall 2026
 </div>
 
