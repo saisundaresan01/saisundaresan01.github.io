@@ -26,6 +26,10 @@ latest_posts:
 
 <section id="about"></section>
 
+<div class="alert alert-secondary" role="alert">
+  Applying for a PhD in Computer Science, Fall 2026
+</div>
+
 I am a Research Associate at Adobe (Systems and Insights Group) working on Machine Learning and Systems. My work focuses on making generative models efficient at inference time by uncovering redundancies and enabling reuse of computation.
 
 At Adobe, I have worked on efficient LLM serving (chunk-cache reuse for RAG) and on caching for video generation models. Before that, I completed a Dual Degree (B.Tech, M.Tech) from the department of Industrial and Systems Engineering at IIT Kharagpur (GPA 9.15/10.00) with a micro‑specialization in AI. With over 1 year of experience in academic and industrial research, I have publications in SIGMOD, EMNLP, and INTERSPEECH.
