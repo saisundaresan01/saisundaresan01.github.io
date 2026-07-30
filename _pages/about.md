@@ -47,7 +47,7 @@ latest_posts:
 </style>
 
 <div class="update">
-  Applying for a PhD in Computer Science, Fall 2026
+  Incoming CS PhD student at Purdue, Fall 2026
 </div>
 
 I am a Research Associate at Adobe (Systems and Insights Group) working on Machine Learning and Systems. My work focuses on making generative models efficient at inference time by uncovering redundancies and enabling reuse of computation.
