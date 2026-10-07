@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: CS PhD Student at Purdue
 
 profile:
   align: right
@@ -26,39 +26,17 @@ latest_posts:
 
 <section id="about"></section>
 
-<style>
-.update {
-  padding: 8px;
-  border-radius: 7px;
-  margin-bottom: 11px;
-  max-width: 510px;
-  margin-left: -2px;
-  margin-top: 2px;
-  border: 2px solid #b1b1b1;
-}
-.update a {
-  color: #ff0000;
-  font-weight: bold;
-  text-decoration: none;
-}
-.update a:hover {
-  color: #cc0000;
-}
-</style>
+I am a first-year PhD student in Computer Science at Purdue University, advised by [Prof. Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/).
 
-<div class="update">
-  CS PhD Student at Purdue
-</div>
+My research focuses on ML systems: using model structure and reusing computation to make generative AI more efficient. I am currently working on KV cache reuse for LLM inference.
 
-I am a first-year PhD student in Computer Science at Purdue University, advised by [Prof. Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/). My research interests lie in designing efficient systems for generative AI by exploiting model architecture and computational redundancy. I am currently exploring KV cache reuse to reduce redundant computation in LLM inference, with a broader interest in how model design and system architecture can be jointly optimized for efficient deployment.
-
-Previously at Adobe, I worked on efficient LLM serving for RAG and on caching for video generation models. Before that, I completed a Dual Degree (B.Tech, M.Tech) from the department of Industrial and Systems Engineering at IIT Kharagpur with a micro‑specialization in AI. With over 1 year of experience in academic and industrial research, I have publications in SIGMOD, EMNLP and INTERSPEECH.
+Previously at Adobe, I worked on efficient LLM serving for RAG and on caching for video generation models. Before that, I completed a Dual Degree (B.Tech, M.Tech) from the department of Industrial and Systems Engineering at IIT Kharagpur with a micro‑specialization in AI.
 
 If you would like to discuss ideas or collaborate, feel free to contact me at <a href="mailto:saisundaresan01@gmail.com">saisundaresan01@gmail.com</a>.
 
 <section id="publications"></section>
 
-<h1>Publications</h1>
+<h2>Publications</h2>
 <div class="publications">
 {% bibliography --query @* --group_by none %}
 </div>
@@ -67,7 +45,7 @@ If you would like to discuss ideas or collaborate, feel free to contact me at <a
 
 <section id="patents"></section>
 
-<h1>Patents</h1>
+<h2>Patents</h2>
 <div class="patents">
   <div class="d-flex align-items-start mb-3">
     <span class="badge badge-info mr-3">USPTO</span>

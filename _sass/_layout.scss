@@ -51,3 +51,47 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// Keep the academic introduction readable beside a modest portrait.
+.academic-profile {
+  .post-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-header .desc {
+    margin-bottom: 0;
+    color: var(--global-text-color-light);
+  }
+
+  .profile {
+    max-width: 230px;
+    margin-bottom: 1.25rem;
+  }
+
+  .profile.float-right {
+    margin-left: 2rem;
+  }
+
+  .clearfix > p {
+    line-height: 1.7;
+    margin-bottom: 1.1rem;
+  }
+
+  .clearfix > h2 {
+    clear: both;
+    padding-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .profile.float-right {
+      float: none !important;
+      width: 180px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .post-title {
+      font-size: 2rem;
+    }
+  }
+}
