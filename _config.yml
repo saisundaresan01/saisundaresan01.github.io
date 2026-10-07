@@ -9,9 +9,9 @@ last_name: Sundaresan
 contact_note: >
   The best way to contact me is through gmail.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Associate at Adobe working on ML + Systems. I build efficient
-  inference systems for LLMs and video generation by uncovering redundancies
-  and enabling state reuse.
+  CS PhD student at Purdue University, advised by Prof. Chunwei Liu.
+  I study efficient systems for generative AI by exploiting model architecture
+  and computational redundancy, with a current focus on KV cache reuse.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
