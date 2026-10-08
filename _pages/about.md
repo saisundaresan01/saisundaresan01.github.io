@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS PhD Student at Purdue
+subtitle:
 
 profile:
   align: right
@@ -26,9 +26,7 @@ latest_posts:
 
 <section id="about"></section>
 
-I am a first-year PhD student in Computer Science at Purdue University, advised by [Prof. Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/).
-
-My research focuses on ML systems: using model structure and reusing computation to make generative AI more efficient. I am currently working on KV cache reuse for LLM inference.
+I am a first-year PhD student in Computer Science at Purdue University, advised by [Prof. Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/). My research focuses on ML systems: using model structure and reusing computation to make generative AI more efficient. I am currently working on KV cache reuse for LLM inference in databases.
 
 Previously at Adobe, I worked on efficient LLM serving for RAG and on caching for video generation models. Before that, I completed a Dual Degree (B.Tech, M.Tech) from the department of Industrial and Systems Engineering at IIT Kharagpur with a micro‑specialization in AI.
 
